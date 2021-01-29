@@ -31,7 +31,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 </project>
 After that we need to go to the folder we have our project saved in our computer and click right and create a new Microsoft Excel Worksheet. Refresh our project in Eclipse and there should be a (name).xlsx file made. We gave the name datalast.xlsx and in the file, added another sheet with the name “Contacts”.
  
-We create another Microsoft Excel Worksheet, since we want two .xlsx files for our project (we named ours resultlast). If all these steps are completed, we are all set. 
+We create another Microsoft Excel Worksheet, since we want two .xlsx files for our project (we named ours resultlast).After this, we are all set. 
  
 3.	Add Eclipse Project to GitHub:
 Start a project/Create a repository → Go to GitHub → Click on: New Repository → Fill the gap Repository Name → Tick at: Public → Create Repository → Copy the URL →  Go to Eclipse → Open Perspective → Git Repositories (Git) → Choose from down-left: Clone a Git Repository and add the clone to this view → Paste the URL from Eclipse → Next> → Next> → Finish → Right click at my Maven Project → Team → Share Project → Choose to the gap Repository the repository you want to share → Finish → Go to Package Explorer → Right click at my Maven Project → Team → Click on Commit → Select the Unstaged Changes → Drag and drop to Staged Changes → Write a Commit Message → Commit and Push → Next → Fill the Login gaps → Finish 
